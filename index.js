@@ -1,6 +1,6 @@
-// const gql = require('gql')
+const gql = require('gql')
 
-// module.exports = gql.and([
-//   gql.exact('rs429358', 'CC'),
-//   gql.exact('rs7412', 'CC')
-// ])
+module.exports = gql.and([
+  gql.exact('rs429358', 'CC'),
+  gql.exact('rs7412', 'CC')
+])

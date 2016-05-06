@@ -1,6 +1,6 @@
 {
   "name": "genoset-216",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Determine if you have two copies of the ApoE-ε4 allele",
   "main": "index.js",
   "directories": {
@@ -30,7 +30,9 @@
     "Cardiovascular disease",
     "Hepatitis C"
   ],
-  "author": "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)",
+  "authors": [
+    "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "standard": "^5.4.1",
