@@ -1,0 +1,46 @@
+{
+  "name": "genoset-216",
+  "version": "2.0.0",
+  "description": "Determine if you have two copies of the ApoE-ε4 allele",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincol54/genoset-216"
+  },
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "standard *.js tests/*.js"
+  },
+  "keywords": [
+    "genome",
+    "genoset",
+    "genes",
+    "dna",
+    "gs216",
+    "genoset-216",
+    "ApoE",
+    "ApoE-ε4 allele",
+    "increased risk",
+    "Alzheimers",
+    "Alzheimer's disease",
+    "Cardiovascular",
+    "Cardiovascular disease",
+    "Hepatitis C"
+  ],
+  "author": "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^5.0.1",
+    "tap-spec": "^4.1.1"
+  },
+  "dependencies": {
+    "gql": "^1.1.0"
+  },
+  "engines": {
+    "node": "6.0.0"
+  }
+}
